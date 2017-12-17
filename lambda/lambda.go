@@ -23,9 +23,9 @@ import (
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/lambda"
 	"github.com/aws/aws-sdk-go/service/lambda/lambdaiface"
-	"github.com/pabcol/goad/api"
-	"github.com/pabcol/goad/infrastructure/aws/sqs"
-	"github.com/pabcol/goad/version"
+	"github.com/pcolazurdo/goad/api"
+	"github.com/pcolazurdo/goad/infrastructure/aws/sqs"
+	"github.com/pcolazurdo/goad/version"
 	"github.com/streadway/amqp"
 )
 

@@ -7,7 +7,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"github.com/pabcol/goad/api"
+	"github.com/pcolazurdo/goad/api"
 )
 
 // Adapter is used to send messages to the queue

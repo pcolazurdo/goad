@@ -9,10 +9,10 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/pabcol/goad/infrastructure"
-	"github.com/pabcol/goad/infrastructure/aws"
-	"github.com/pabcol/goad/infrastructure/docker"
-	"github.com/pabcol/goad/result"
+	"github.com/pcolazurdo/goad/infrastructure"
+	"github.com/pcolazurdo/goad/infrastructure/aws"
+	"github.com/pcolazurdo/goad/infrastructure/docker"
+	"github.com/pcolazurdo/goad/result"
 )
 
 // TestConfig type

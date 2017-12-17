@@ -17,7 +17,7 @@ import (
 
 	"github.com/aws/aws-sdk-go/service/lambda"
 	"github.com/aws/aws-sdk-go/service/lambda/lambdaiface"
-	"github.com/pabcol/goad/api"
+	"github.com/pcolazurdo/goad/api"
 )
 
 var port int

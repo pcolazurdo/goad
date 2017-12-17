@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/pabcol/goad/goad"
-	"github.com/pabcol/goad/result"
+	"github.com/pcolazurdo/goad/goad"
+	"github.com/pcolazurdo/goad/result"
 	"github.com/gorilla/websocket"
 )
 
