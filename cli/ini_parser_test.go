@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/goadapp/goad/goad"
+	"github.com/pabcol/goad/goad"
 	"github.com/stretchr/testify/assert"
 )
 

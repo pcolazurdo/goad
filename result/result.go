@@ -9,9 +9,9 @@ import (
 	"time"
 
 	"github.com/aws/aws-sdk-go/aws"
-	"github.com/goadapp/goad/api"
-	"github.com/goadapp/goad/goad/util"
-	"github.com/goadapp/goad/infrastructure/aws/sqs"
+	"github.com/pabcol/goad/api"
+	"github.com/pabcol/goad/goad/util"
+	"github.com/pabcol/goad/infrastructure/aws/sqs"
 	"github.com/streadway/amqp"
 )
 

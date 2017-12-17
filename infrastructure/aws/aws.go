@@ -18,8 +18,8 @@ import (
 	"github.com/aws/aws-sdk-go/service/iam"
 	"github.com/aws/aws-sdk-go/service/lambda"
 	"github.com/aws/aws-sdk-go/service/sqs"
-	"github.com/goadapp/goad/infrastructure"
-	"github.com/goadapp/goad/version"
+	"github.com/pabcol/goad/infrastructure"
+	"github.com/pabcol/goad/version"
 	uuid "github.com/satori/go.uuid"
 )
 
