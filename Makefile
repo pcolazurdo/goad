@@ -33,7 +33,8 @@ ZIP = TZ=UTC zip -jrX
 
 .PHONY: lambda bindata clean all-zip all linux32 linux64 osx64 win32 win64 deb32 deb64 rpm32 rpm64 rpm check fmt test install uninstall
 
-all: osx64 linux32 linux64 win32 win64
+#all: osx64 linux32 linux64 win32 win64
+all: linux64 
 
 test: bindata
 	@go test $(TEST)
@@ -45,7 +46,8 @@ lambda:
 
 bindata: lambda
 	@go get github.com/jteeuwen/go-bindata/...
-	@go-bindata -modtime $(TIMESTAMP) -nocompress -pkg infrastructure -o infrastructure/bindata.go data/lambda.zip
+	@./vendor/bin/go-bindata -modtime $(TIMESTAMP) -nocompress -pkg infrastructure -o infrastructure/bindata.go data/lambda.zip
+	@cp infrastructure/bindata.go src/goad/infrastructure/bindata.go
 
 linux64: bindata
 	@GOOS=linux GOARCH=amd64 $(GO-BUILD) -o build/linux/x86-64/$(TARGET)

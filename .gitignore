@@ -3,6 +3,7 @@ site/dist
 data/lambda.zip
 data/lambda/goad-lambda
 infrastructure/bindata.go
+src/goad/infrastructure/bindata.go
 site/Upstatic
 build/
 goad.ini
