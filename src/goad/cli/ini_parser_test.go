@@ -7,7 +7,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/pcolazurdo/goad/goad"
+	"goad/goad"
 	"github.com/stretchr/testify/assert"
 )
 
