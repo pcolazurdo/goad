@@ -6,8 +6,8 @@ TARGET := goad
 # Prepend our vendor directory to the system GOPATH
 # so that import path resolution will prioritize
 # our third party snapshots.
-GOPATH := ${PWD}/vendor:${GOPATH}
-export GOPATH
+# GOPATH := ${PWD}/vendor:${GOPATH}
+# export GOPATH
 
 # These will be provided to the target
 VERSION := 2.0.0-rc1x
